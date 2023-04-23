@@ -36,7 +36,7 @@ Using any other compiler
                           Example : "AABBCCDDEE"         = 5 bytes (40 bits key)
                           Example : "AABBCCDDEEFF112233" = 9 bytes (72 bits key)
                           Example : "000000000000000001" = 9 bytes (72 bits key)
-                          Example : "A"                  = Will be considered as 1 byte [0xA0] ( 8 bits key)
+                          Example : "A"                  = Will be considered as 1 byte [0xA0] (8 bits key)
                           Note    : For good decoding a key length with a multiple of 8 bits should be preferred [8, 16, 24, 32, 40, 44, 48... bits]
     
     [input data do encrypt/decrypt] : An hexadecimal ASCII string to cipher or decipher (up to 4096 bytes [8192 ASCII characters])
@@ -47,7 +47,7 @@ Using any other compiler
 ## Examples
 
 Encrypt the following HEX string  : `"00112233445566778899AABBCCDDEEFF"` (total 16 bytes)
-with the following encryption key : `"DEADBEEF"`
+With the following encryption key : `"DEADBEEF"` (total 4 bytes)
 
 Call the program with the following syntax :
 
@@ -55,7 +55,7 @@ Call the program with the following syntax :
 
 The argument `-k [Encryption Key]` is mandatory, launching the software without this argument will causes an error
 
-The argument `-i [input data do cipher/decipher]` is optional, if no argument is passed, then the tool will display at output the key stream produced by the ARC4 algorithm (4096 bytes diplayed as defined by the constant `MAX_OUTPUT_KEY_STREAM_LENGTH`).
+The argument `-i [input data do cipher/decipher]` is optional, if no argument is passed, then the tool will display at output the key stream produced by the ARC4 algorithm (4096 bytes will be diplayed as defined by the constant `MAX_OUTPUT_KEY_STREAM_LENGTH`).
 
 **Note :**
 To ensure a good working of this software it is preferable to pass a key and data with a multiple of 8 bits (8, 16, 24, 32, 40... bits).

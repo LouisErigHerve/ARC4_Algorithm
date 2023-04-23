@@ -518,7 +518,7 @@ void usage(void)
   printf("                      Example : \"AABBCCDDEE\"         = 5 bytes (40 bits key)\n");
   printf("                      Example : \"AABBCCDDEEFF112233\" = 9 bytes (72 bits key)\n");
   printf("                      Example : \"000000000000000001\" = 9 bytes (72 bits key)\n");
-  printf("                      Example : \"A\"                  = Will be considered as 1 byte [0xA0] ( 8 bits key)\n");
+  printf("                      Example : \"A\"                  = Will be considered as 1 byte [0xA0] (8 bits key)\n");
   printf("                      Note    : For good decoding a key length with a multiple of 8 bits should be preferred [8, 16, 24, 32, 40, 44, 48... bits]\n");
   printf("\n");
   printf("[input data do encrypt/decrypt] : An hexadecimal ASCII string to cipher or decipher (up to %u bytes [%u ASCII characters])\n", MAX_OUTPUT_KEY_STREAM_LENGTH, MAX_OUTPUT_KEY_STREAM_LENGTH * 2);
