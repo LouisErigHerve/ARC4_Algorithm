@@ -57,3 +57,6 @@ Mkfile.old
 dkms.conf
 /Debug/
 /Release/
+
+#Binaries
+/Bin

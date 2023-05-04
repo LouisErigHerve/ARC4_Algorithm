@@ -5,7 +5,7 @@
  Version     : 1.0
  Date        : 2023 - April - 24
  Copyright   : None
- Description : ARC4_Algorithm main program header
+ Description : Main program header of ARC4 algorithm program
  ============================================================================
  */
 
@@ -26,7 +26,8 @@ extern "C" {
 #include <errno.h>
 #include <time.h>
 #include <unistd.h>
-#include "ARC4_Algorithm.h"
+#include <getopt.h>
+#include "ARC4_algorithm.h"
 
 
 /* Define -------------------------------------------------------------------*/

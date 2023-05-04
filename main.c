@@ -5,7 +5,7 @@
  Version     : 1.0
  Date        : 2023 - April - 24
  Copyright   : None
- Description : ARC4_Algorithm main program source
+ Description : Main program source of ARC4 algorithm program
  ============================================================================
  */
 

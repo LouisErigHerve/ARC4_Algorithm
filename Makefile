@@ -22,7 +22,7 @@ CFLAGS = -O3 -Wall -c -fmessage-length=0 -std=c99 -o
 
 all:
 	$(CC) $(CFLAGS) main.o main.c
-	$(CC) $(CFLAGS) ARC4_algorithm.c ARC4_algorithm.c
+	$(CC) $(CFLAGS) ARC4_algorithm.o ARC4_algorithm.c
 	$(CC) -o ARC4_algorithm ARC4_algorithm.o main.o
 
 specific_gcc:
